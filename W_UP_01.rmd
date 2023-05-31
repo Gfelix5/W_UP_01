@@ -51,7 +51,7 @@ ggplot(mydata, aes(x = position, y = pushups)) +
   ggtitle("Box Plot of Pushups by Position")
 
 ```
-The skill box did better than the line box with pushups. The middle line in the box shows the average.
+The skill box did better than the line box with pushups. The percentage are aling the side where it says pushups, which makes it easier to read the scores that the players did overall. The dark line inside the box indacates the median. The median for line players is 14.5, for skill players it is 47.5.
 
 ### Numerical Descriptive Results 
 
