@@ -64,9 +64,14 @@ The skill has at least 3x more results than the Line
 ## Inferential Results
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+```{r}
+t.test(pushups~position,data=mydata)
+```
+This data shows, including the ones above, it shows that skill players do more pushups and are capable of doing more than line players. With the mean scores there is 32.6 percent difference between the line and skill players. 
 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+In this exercise we learned how to make data visual using by graphing the data through a box plot. In particular the data consisted of the rate at which skill players versus line players can do pushups. We used commands with data we already had to create the graph we used, we also created a numerical summary. This time we ran a t test on the data. Along with each part we had put a description of what we are viewing. 
