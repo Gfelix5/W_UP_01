@@ -53,7 +53,7 @@ ggplot(mydata, aes(x = position, y = pushups)) +
 ```
 The skill box did better than the line box with pushups. The middle line in the box shows the average.
 
-### Numerical Descriptive Results
+### Numerical Descriptive Results 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 ```{r}
