@@ -59,7 +59,7 @@ The skill box did better than the line box with pushups. The middle line in the 
 ```{r}
 favstats(pushups~position,data=mydata)
 ```
-
+The skill has at least 3x more results than the Line 
 
 ## Inferential Results
 
